@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/back">
+    
+    <Button
+        android:id="@+id/numsel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/flat_button"
+        android:text="@string/select_numbers" />
+
+    <RadioGroup
+        android:id="@+id/radios"
+        android:layout_width="248dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/numsel"
+        android:layout_alignRight="@+id/numsel"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/flat_button"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rugged"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/highway"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radios"
+        android:layout_alignLeft="@+id/radios"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/flat_button"
+        android:text="@string/stop" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stop"
+        android:layout_alignLeft="@+id/stop"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/flat_button"
+        android:text="@string/start" />
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp" />
+
+</RelativeLayout>

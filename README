@@ -1,0 +1,18 @@
+Contributers: 
+1) Arnav Kumar Agrawal
+2) Ayush Garg
+3) Faisal Anees
+4) Saurabh Kathpalia
+
+Idea:
+
+The application aims to reduce the number deaths due to car accidents in which the help does not arrive at time.
+
+This is android application that aims to inform the relatives/friends of a person who suffers an accident.
+
+The application will have 2 modes (depending upon the type of road bumpy/highway).
+
+He can preselect 3 contacts he wants to inform in case of emergency.
+The application will send them a text message with the link of the accident site.
+
+It does not require internet or gps to function.It needs only phone network connectivity.
